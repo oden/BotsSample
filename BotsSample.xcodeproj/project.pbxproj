@@ -17,18 +17,10 @@
 		B45D89831CA4B70B00ACC38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D89821CA4B70B00ACC38B /* Assets.xcassets */; };
 		B45D89861CA4B70B00ACC38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45D89841CA4B70B00ACC38B /* LaunchScreen.storyboard */; };
 		B45D89911CA4B70B00ACC38B /* BotsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D89901CA4B70B00ACC38B /* BotsSampleTests.m */; };
-		B45D899C1CA4B70B00ACC38B /* BotsSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D899B1CA4B70B00ACC38B /* BotsSampleUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B45D898D1CA4B70B00ACC38B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B45D89681CA4B70B00ACC38B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B45D896F1CA4B70B00ACC38B;
-			remoteInfo = BotsSample;
-		};
-		B45D89981CA4B70B00ACC38B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B45D89681CA4B70B00ACC38B /* Project object */;
 			proxyType = 1;
@@ -58,9 +50,6 @@
 		B45D898C1CA4B70B00ACC38B /* BotsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D89901CA4B70B00ACC38B /* BotsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotsSampleTests.m; sourceTree = "<group>"; };
 		B45D89921CA4B70B00ACC38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B45D89971CA4B70B00ACC38B /* BotsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B45D899B1CA4B70B00ACC38B /* BotsSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotsSampleUITests.m; sourceTree = "<group>"; };
-		B45D899D1CA4B70B00ACC38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA315ED7D84023541A4F090A /* libPods-BotsSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BotsSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,13 +67,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5602DCB90CA2BEF9FC8A2065 /* libPods-BotsSampleTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B45D89941CA4B70B00ACC38B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +98,6 @@
 			children = (
 				B45D89721CA4B70B00ACC38B /* BotsSample */,
 				B45D898F1CA4B70B00ACC38B /* BotsSampleTests */,
-				B45D899A1CA4B70B00ACC38B /* BotsSampleUITests */,
 				B45D89711CA4B70B00ACC38B /* Products */,
 				8EE4B45D9A801E9C4C53BFFE /* Pods */,
 				8BF6579494C3C4407012A47E /* Frameworks */,
@@ -128,7 +109,6 @@
 			children = (
 				B45D89701CA4B70B00ACC38B /* BotsSample.app */,
 				B45D898C1CA4B70B00ACC38B /* BotsSampleTests.xctest */,
-				B45D89971CA4B70B00ACC38B /* BotsSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,15 +146,6 @@
 				B45D89921CA4B70B00ACC38B /* Info.plist */,
 			);
 			path = BotsSampleTests;
-			sourceTree = "<group>";
-		};
-		B45D899A1CA4B70B00ACC38B /* BotsSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B45D899B1CA4B70B00ACC38B /* BotsSampleUITests.m */,
-				B45D899D1CA4B70B00ACC38B /* Info.plist */,
-			);
-			path = BotsSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,24 +192,6 @@
 			productReference = B45D898C1CA4B70B00ACC38B /* BotsSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B45D89961CA4B70B00ACC38B /* BotsSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B45D89A61CA4B70B00ACC38B /* Build configuration list for PBXNativeTarget "BotsSampleUITests" */;
-			buildPhases = (
-				B45D89931CA4B70B00ACC38B /* Sources */,
-				B45D89941CA4B70B00ACC38B /* Frameworks */,
-				B45D89951CA4B70B00ACC38B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B45D89991CA4B70B00ACC38B /* PBXTargetDependency */,
-			);
-			name = BotsSampleUITests;
-			productName = BotsSampleUITests;
-			productReference = B45D89971CA4B70B00ACC38B /* BotsSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,10 +205,6 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					B45D898B1CA4B70B00ACC38B = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = B45D896F1CA4B70B00ACC38B;
-					};
-					B45D89961CA4B70B00ACC38B = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = B45D896F1CA4B70B00ACC38B;
 					};
@@ -276,7 +225,6 @@
 			targets = (
 				B45D896F1CA4B70B00ACC38B /* BotsSample */,
 				B45D898B1CA4B70B00ACC38B /* BotsSampleTests */,
-				B45D89961CA4B70B00ACC38B /* BotsSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,13 +241,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B45D898A1CA4B70B00ACC38B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B45D89951CA4B70B00ACC38B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,14 +362,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B45D89931CA4B70B00ACC38B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B45D899C1CA4B70B00ACC38B /* BotsSampleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -436,11 +369,6 @@
 			isa = PBXTargetDependency;
 			target = B45D896F1CA4B70B00ACC38B /* BotsSample */;
 			targetProxy = B45D898D1CA4B70B00ACC38B /* PBXContainerItemProxy */;
-		};
-		B45D89991CA4B70B00ACC38B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B45D896F1CA4B70B00ACC38B /* BotsSample */;
-			targetProxy = B45D89981CA4B70B00ACC38B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -501,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -540,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,28 +526,6 @@
 			};
 			name = Release;
 		};
-		B45D89A71CA4B70B00ACC38B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BotsSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.jitakukeibi.BotsSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BotsSample;
-			};
-			name = Debug;
-		};
-		B45D89A81CA4B70B00ACC38B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BotsSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.jitakukeibi.BotsSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BotsSample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -646,15 +552,6 @@
 			buildConfigurations = (
 				B45D89A41CA4B70B00ACC38B /* Debug */,
 				B45D89A51CA4B70B00ACC38B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B45D89A61CA4B70B00ACC38B /* Build configuration list for PBXNativeTarget "BotsSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B45D89A71CA4B70B00ACC38B /* Debug */,
-				B45D89A81CA4B70B00ACC38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
